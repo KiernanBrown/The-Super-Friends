@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 7a0bb5154c0430944bfa0fa8b03bb2dc
+timeCreated: 1481335822
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BotLeft_ctrl
+    100002: BotLeft_jnt
+    100004: BotRight_ctrl
+    100006: BotRight_jnt
+    100008: CabinetRoot_jnt
+    100010: Freezer_ctrl
+    100012: Freezer_jnt
+    100014: Fridge_ctrl
+    100016: Fridge_jnt
+    100018: FridgeRoot_jnt
+    100020: //RootNode
+    100022: kwb_FridgeAndCabinets 1
+    100024: Root_ctrl
+    100026: Root_jnt
+    100028: TopLeft_ctrl
+    100030: TopLeft_jnt
+    100032: TopMid_ctrl
+    100034: TopMid_jnt
+    100036: TopRight_ctrl
+    100038: TopRight_jnt
+    400000: BotLeft_ctrl
+    400002: BotLeft_jnt
+    400004: BotRight_ctrl
+    400006: BotRight_jnt
+    400008: CabinetRoot_jnt
+    400010: Freezer_ctrl
+    400012: Freezer_jnt
+    400014: Fridge_ctrl
+    400016: Fridge_jnt
+    400018: FridgeRoot_jnt
+    400020: //RootNode
+    400022: kwb_FridgeAndCabinets 1
+    400024: Root_ctrl
+    400026: Root_jnt
+    400028: TopLeft_ctrl
+    400030: TopLeft_jnt
+    400032: TopMid_ctrl
+    400034: TopMid_jnt
+    400036: TopRight_ctrl
+    400038: TopRight_jnt
+    4300000: kwb_FridgeAndCabinets
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: kwb_FridgeAndCabinets 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: kwb_FridgeAndCabinets 1
+        weight: 1
+      - path: Root_ctrl
+        weight: 1
+      - path: Root_ctrl/BotLeft_ctrl
+        weight: 1
+      - path: Root_ctrl/BotRight_ctrl
+        weight: 1
+      - path: Root_ctrl/Freezer_ctrl
+        weight: 1
+      - path: Root_ctrl/Fridge_ctrl
+        weight: 1
+      - path: Root_ctrl/TopLeft_ctrl
+        weight: 1
+      - path: Root_ctrl/TopMid_ctrl
+        weight: 1
+      - path: Root_ctrl/TopRight_ctrl
+        weight: 1
+      - path: Root_jnt
+        weight: 1
+      - path: Root_jnt/CabinetRoot_jnt
+        weight: 1
+      - path: Root_jnt/CabinetRoot_jnt/BotLeft_jnt
+        weight: 1
+      - path: Root_jnt/CabinetRoot_jnt/BotRight_jnt
+        weight: 1
+      - path: Root_jnt/CabinetRoot_jnt/TopLeft_jnt
+        weight: 1
+      - path: Root_jnt/CabinetRoot_jnt/TopMid_jnt
+        weight: 1
+      - path: Root_jnt/CabinetRoot_jnt/TopRight_jnt
+        weight: 1
+      - path: Root_jnt/FridgeRoot_jnt
+        weight: 1
+      - path: Root_jnt/FridgeRoot_jnt/Freezer_jnt
+        weight: 1
+      - path: Root_jnt/FridgeRoot_jnt/Fridge_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
